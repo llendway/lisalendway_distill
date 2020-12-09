@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/2020-12-09-buildingdistill/",
+    "title": "Building a {distill} website",
+    "description": "How I built this site using {distill}",
+    "author": [
+      {
+        "name": "Lisa Lendway",
+        "url": {}
+      }
+    ],
+    "date": "2020-12-09",
+    "categories": [],
+    "contents": "\nHere is where I will talk about building this website.\n\n\n\n",
+    "preview": "posts/2020-12-09-buildingdistill/blog_distill_photo.png",
+    "last_modified": "2020-12-09T13:13:47-06:00",
+    "input_file": {}
+  }
+]

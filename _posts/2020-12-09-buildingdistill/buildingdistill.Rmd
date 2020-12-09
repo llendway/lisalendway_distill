@@ -1,0 +1,21 @@
+---
+title: "Building a {distill} website"
+description: |
+  How I built this site using {distill}
+author:
+  - name: Lisa Lendway
+date: 12-09-2020
+preview: blog_distill_photo.png
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Here is where I will talk about building this website.
+
+

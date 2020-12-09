@@ -1,0 +1,18 @@
+---
+title: "Lisa Lendway"
+description: |
+  My R ponderings ...
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+
+![](lisalendway.JPG){width=200}
+
+## About me:
+
+## Education:
