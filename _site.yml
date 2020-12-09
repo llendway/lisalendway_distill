@@ -18,3 +18,4 @@ navbar:
     - icon: fa fa-twitter
       href: https://twitter.com/lisalendway
 output: distill::distill_article
+theme: "lisa_theme.css"
