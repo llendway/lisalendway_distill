@@ -1,15 +1,11 @@
 name: "website"
 title: "Lisa Lendway"
-description: |
-  My R ponderings
 output_dir: "_site"
 navbar:
-  logo:
-    image: ll.png
   right:
     - text: "About"
       href: index.html
-    - text: "blog"
+    - text: "Blog"
       href: blog.html
     - icon: fa fa-github
       href: https://github.com/llendway

@@ -1,23 +1,28 @@
 ---
 title: "About me"
-description: |
-  My R ponderings ...
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
 ```
 
-
-![](lisalendway.JPG){width=100}
+![](images/lisalendway.JPG){width=50%}
 
 Professionally, I am a professor of statistics and data science at [Macalester College](https://www.macalester.edu/) and R Studio certified instructor of tidyverse. I have used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher. I have always enjoyed teaching people how to use R, but love it even more since the creation of R Markdown. If you are new to R and R Studio, you might find my [tutorials](https://ds112-lendway.netlify.app/) from my introductory data science class helpful. 
 
-![Back when I worked in industry and got excited about knitting to Word](fb_post.png){width=50}
+<center>
+![A Facebook post from back when I worked in industry and got excited about knitting to Word](fb_post.png){width=70%}
+
+</center>
 
 I am also a mom and spouse. I enjoy tending to my [jungle garden](https://www.pinterest.com/pin/383017143315005418/) (that's how I fondly refer to my backyard garden) in the summers, cycling outdoors or indoors when necessary, and working on remodeling and restoring our house. 
+
+![My family](images/fam.jpeg){width=35%}
+![Cross-cycling on a beautiful Minnesota October day!](images/bike_photo.jpg){width=30%}
+
+![The "Jungle Garden", aka my 3rd child in the summer](images/garden_full.JPG){width=30%} 
+![The pandemic patio we built summer 2020.](images/final_patio.jpg){width=35%}
 
 
 ## Education
