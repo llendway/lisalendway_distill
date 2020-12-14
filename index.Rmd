@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ![](images/lisalendway.JPG){width=50%}
 
-Professionally, I am a professor of statistics and data science at [Macalester College](https://www.macalester.edu/) and R Studio certified instructor of tidyverse. I have used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher. I have always enjoyed teaching people how to use R, but love it even more since the creation of R Markdown. If you are new to R and R Studio, you might find my [tutorials](https://ds112-lendway.netlify.app/) from my introductory data science class helpful. 
+Professionally, I am a professor of statistics and data science at [Macalester College](https://www.macalester.edu/mscs/) and R Studio certified instructor of tidyverse. I have used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher. I have always enjoyed teaching people how to use R, but love it even more since the creation of R Markdown. If you are new to R and R Studio, you might find my [tutorials](https://ds112-lendway.netlify.app/) from my introductory data science class helpful. 
 
 <center>
 ![A Facebook post from back when I worked in industry and got excited about knitting to Word](fb_post.png){width=70%}
@@ -18,21 +18,40 @@ Professionally, I am a professor of statistics and data science at [Macalester C
 
 I am also a mom and spouse. I enjoy tending to my [jungle garden](https://www.pinterest.com/pin/383017143315005418/) (that's how I fondly refer to my backyard garden) in the summers, cycling outdoors or indoors when necessary, and working on remodeling and restoring our house. 
 
-![My family](images/fam.jpeg){width=35%}
-![Cross-cycling on a beautiful Minnesota October day!](images/bike_photo.jpg){width=30%}
+<center>
 
-![The "Jungle Garden", aka my 3rd child in the summer](images/garden_full.JPG){width=30%} 
-![The pandemic patio we built summer 2020.](images/final_patio.jpg){width=35%}
+:::: {style="display: flex;"}
 
+::: {}
+
+![My family](images/fam.jpeg){width=90%}
+
+![Cross-cycling on a beautiful Minnesota October day!](images/bike_photo.jpg){width=90%}
+
+:::
+
+::: {}
+
+![The "Jungle Garden", aka my 3rd child in the summer](images/garden_full.JPG){width=70%}
+
+![The patio Chris and I built summer 2020.](images/final_patio.jpg){width=70%}
+
+:::
+
+::::
+
+</center>
 
 ## Education
 
-PhD in Statistics
-University of Minnesota, School of Statistics, 2012
+PhD in Statistics, 2012
+
+University of Minnesota, [School of Statistics](https://cla.umn.edu/statistics)
 
 
-BA in Mathematics and Spanish
-Macalester College, 2003
+BA in Mathematics and Spanish, 2003
+
+[Macalester College](https://www.macalester.edu/)
 
 ## Work Experience
 
