@@ -5,8 +5,10 @@ navbar:
   right:
     - text: "About"
       href: index.html
-    - text: "Blog"
+    - text: "R Stuff"
       href: blog.html
+    - text: "Non-R projects"
+      href: other.html
     - icon: fa fa-github
       href: https://github.com/llendway
     - icon: fa fa-linkedin

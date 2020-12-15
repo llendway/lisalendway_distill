@@ -1,0 +1,9 @@
+---
+title: "When I'm not doing #RStats ..."
+site: distill::distill_website
+---
+
+
+## Work-in-progress   
+
+I do a lot of things that are completely unrelated to R, although R sometimes sneaks in where it doesn't belong. Eventually I will write about those things here, mostly gardening and home renovations :)
