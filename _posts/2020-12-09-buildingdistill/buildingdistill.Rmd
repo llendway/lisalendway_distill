@@ -1,7 +1,7 @@
 ---
 title: "Building a {distill} website"
 description: |
-  How I built this site using {distill}
+  A journey through how this website came to be
 author:
   - name: Lisa Lendway
 date: 12-15-2020
@@ -9,6 +9,8 @@ preview: blog_distill_photo.png
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    toc_float: true
 ---
 
 
@@ -16,6 +18,23 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Here is where I will talk about building this website.
+## Why a website?
+
+Well, I finally did it! I made a website. And to celebrate, I'm going to share how I did it. And, why did I do it? Two main reasons: 1. to share materials that might be useful for others, 2. to document some things for myself all in one place. 
+
+## Resources
+
+Before I start, I want to share some of the resources I used.
+
+* Alison Hill and Desirée De Leon's [webinar](https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/) about Sharing on Short Notice. WATCH THIS before going any further. This is where I was first introduced to [netlify](https://www.netlify.com/) and it blew my mind how easy it was to turn my html files into a website.    
+
+* The distill [documentation](https://rstudio.github.io/distill/), which also happens to be a ... distill website!
+
+* Other people's distill websites: [Ijeamaka Anyene](https://ijeamaka-anyene.netlify.app/), [Shannon Pileggi](https://www.pipinghotdata.com/about.html)(aka Piping Hot Data), [Miles McBain](https://milesmcbain.xyz/), and [Tom Mock](https://themockup.blog/).
+
+* Alison Hill's [website](https://alison.rbind.io/) for design inspiration and for content. I think I find a new resource every time I visit her site. For example, check out her [talk](https://alison.rbind.io/talk/2020-larug/) on Recent updates in the R markdown family.   
+* And more! I'll try to make note of difference resources I used throughout the blog.
+
+If you would like to follow along with the video I created, find it [here](https://youtu.be/Fm3bsYCilEU). 
 
 

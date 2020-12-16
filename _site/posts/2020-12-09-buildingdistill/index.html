@@ -88,8 +88,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
 <title>Lisa Lendway: Building a {distill} website</title>
 
-<meta property="description" itemprop="description" content="How I built this site using {distill}"/>
+<meta property="description" itemprop="description" content="A journey through how this website came to be"/>
 
+<link rel="canonical" href="https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"/>
 
 <!--  https://schema.org/Article -->
 <meta property="article:published" itemprop="datePublished" content="2020-12-15"/>
@@ -99,20 +100,34 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <meta property="og:title" content="Lisa Lendway: Building a {distill} website"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="How I built this site using {distill}"/>
+<meta property="og:description" content="A journey through how this website came to be"/>
+<meta property="og:url" content="https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"/>
+<meta property="og:image" content="https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/blog_distill_photo.png"/>
+<meta property="og:image:width" content="1628"/>
+<meta property="og:image:height" content="1042"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Lisa Lendway"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
-<meta property="twitter:card" content="summary"/>
+<meta property="twitter:card" content="summary_large_image"/>
 <meta property="twitter:title" content="Lisa Lendway: Building a {distill} website"/>
-<meta property="twitter:description" content="How I built this site using {distill}"/>
+<meta property="twitter:description" content="A journey through how this website came to be"/>
+<meta property="twitter:url" content="https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"/>
+<meta property="twitter:image" content="https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/blog_distill_photo.png"/>
+<meta property="twitter:image:width" content="1628"/>
+<meta property="twitter:image:height" content="1042"/>
 
+<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
+<meta name="citation_title" content="Lisa Lendway: Building a {distill} website"/>
+<meta name="citation_fulltext_html_url" content="https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"/>
+<meta name="citation_online_date" content="2020/12/15"/>
+<meta name="citation_publication_date" content="2020/12/15"/>
+<meta name="citation_author" content="Lisa Lendway"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","preview","output"]}},"value":[{"type":"character","attributes":{},"value":["Building a {distill} website"]},{"type":"character","attributes":{},"value":["How I built this site using {distill}"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Lisa Lendway"]}]}]},{"type":"character","attributes":{},"value":["12-15-2020"]},{"type":"character","attributes":{},"value":["blog_distill_photo.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","preview","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Building a {distill} website"]},{"type":"character","attributes":{},"value":["A journey through how this website came to be"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Lisa Lendway"]}]}]},{"type":"character","attributes":{},"value":["12-15-2020"]},{"type":"character","attributes":{},"value":["blog_distill_photo.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"]},{"type":"character","attributes":{},"value":["https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2325,7 +2340,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Building a {distill} website","description":"How I built this site using {distill}","authors":[{"author":"Lisa Lendway","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2020-12-15T00:00:00.000+00:00","citationText":"Lendway, 2020"}
+{"title":"Building a {distill} website","description":"A journey through how this website came to be","authors":[{"author":"Lisa Lendway","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2020-12-15T00:00:00.000+00:00","citationText":"Lendway, 2020"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2339,15 +2354,18 @@ d-appendix d-footnote-list a.footnote-backlink {
 <div class="nav-right">
 <a href="../../index.html">About</a>
 <a href="../../blog.html">R Stuff</a>
-<a href="../../other.html">Non-R projects</a>
+<a href="../../other.html">Non-R Stuff</a>
 <a href="https://github.com/llendway">
 <i class="fa fa-github" aria-hidden="true"></i>
 </a>
-<a href="https://www.linkedin.com/in/lisa-lendway-68a00b63/">
-<i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
 <a href="https://twitter.com/lisalendway">
 <i class="fa fa-twitter" aria-hidden="true"></i>
+</a>
+<a href="https://www.youtube.com/channel/UCC3CCtUrSSQoJkxodRKr89g">
+<i class="fa fa-youtube-square" aria-hidden="true"></i>
+</a>
+<a href="https://www.linkedin.com/in/lisa-lendway-68a00b63/">
+<i class="fa fa-linkedin" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2361,7 +2379,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <h1>Building a {distill} website</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>How I built this site using {distill}</p></p>
+<p><p>A journey through how this website came to be</p></p>
 </div>
 
 <div class="d-byline">
@@ -2371,9 +2389,62 @@ d-appendix d-footnote-list a.footnote-backlink {
 </div>
 
 <div class="d-article">
-<p>Here is where I will talk about building this website.</p>
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#why-a-website">Why a website?</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+</nav>
+</div>
+<h2 id="why-a-website">Why a website?</h2>
+<p>Well, I finally did it! I made a website. And to celebrate, I’m going to share how I did it. And, why did I do it? Two main reasons: 1. to share materials that might be useful for others, 2. to document some things for myself all in one place.</p>
+<h2 id="resources">Resources</h2>
+<p>Before I start, I want to share some of the resources I used.</p>
+<ul>
+<li><p>Alison Hill and Desirée De Leon’s <a href="https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/">webinar</a> about Sharing on Short Notice. WATCH THIS before going any further. This is where I was first introduced to <a href="https://www.netlify.com/">netlify</a> and it blew my mind how easy it was to turn my html files into a website.</p></li>
+<li><p>The distill <a href="https://rstudio.github.io/distill/">documentation</a>, which also happens to be a … distill website!</p></li>
+<li><p>Other people’s distill websites: <a href="https://ijeamaka-anyene.netlify.app/">Ijeamaka Anyene</a>, <a href="https://www.pipinghotdata.com/about.html">Shannon Pileggi</a>(aka Piping Hot Data), <a href="https://milesmcbain.xyz/">Miles McBain</a>, and <a href="https://themockup.blog/">Tom Mock</a>.</p></li>
+<li><p>Alison Hill’s <a href="https://alison.rbind.io/">website</a> for design inspiration and for content. I think I find a new resource every time I visit her site. For example, check out her <a href="https://alison.rbind.io/talk/2020-larug/">talk</a> on Recent updates in the R markdown family.<br />
+</p></li>
+<li><p>And more! I’ll try to make note of difference resources I used throughout the blog.</p></li>
+</ul>
+<p>If you would like to follow along with the video I created, find it <a href="https://youtu.be/Fm3bsYCilEU">here</a>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
+<div class="article-footer">
+  <p class="social_footer">
+    <span class="disqus-comments">
+      <i class="fas fa-comments"></i>
+      &nbsp;
+      <span class="disqus-comment-count" data-disqus-identifier="posts/2020-12-09-buildingdistill/">Comment on this article</span>
+    </span>
+    <span class="article-sharing">
+      Share: &nbsp;
+      <a href="https://twitter.com/share?text=Building%20a%20%7Bdistill%7D%20website&amp;url=https%3A%2F%2Flisalendway.netlify.app%2Fposts%2F2020-12-09-buildingdistill%2F">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Flisalendway.netlify.app%2Fposts%2F2020-12-09-buildingdistill%2F&amp;title=Building%20a%20%7Bdistill%7D%20website">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </span>
+  </p>
+  <script id="dsq-count-scr" src="https://lisalendway.disqus.com/count.js" async></script>
+  <div id="disqus_thread" class="hidden"></div>
+  <script>
+var disqus_config = function () {
+  this.page.url = 'https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/';
+  this.page.identifier = 'posts/2020-12-09-buildingdistill/';
+};
+(function() {
+  var d = document, s = d.createElement('script');
+  s.src = 'https://lisalendway.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
+</script>
+</div>
 <!--/radix_placeholder_article_footer-->
 </div>
 
@@ -2384,10 +2455,25 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
+<div class="appendix-bottom">
+  <h3 id="citation">Citation</h3>
+  <p>For attribution, please cite this work as</p>
+  <pre class="citation-appendix short">Lendway (2020, Dec. 15). Lisa Lendway: Building a {distill} website. Retrieved from https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/</pre>
+  <p>BibTeX citation</p>
+  <pre class="citation-appendix long">@misc{lendway2020building,
+  author = {Lendway, Lisa},
+  title = {Lisa Lendway: Building a {distill} website},
+  url = {https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/},
+  year = {2020}
+}</pre>
+</div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+  <p>© Lisa Lendway 2020. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
+
 
 </body>
 

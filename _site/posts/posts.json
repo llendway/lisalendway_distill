@@ -2,7 +2,7 @@
   {
     "path": "posts/2020-12-09-buildingdistill/",
     "title": "Building a {distill} website",
-    "description": "How I built this site using {distill}",
+    "description": "A journey through how this website came to be",
     "author": [
       {
         "name": "Lisa Lendway",
@@ -11,9 +11,11 @@
     ],
     "date": "2020-12-15",
     "categories": [],
-    "contents": "\nHere is where I will talk about building this website.\n\n\n\n",
+    "contents": "\n\nContents\nWhy a website?\nResources\n\nWhy a website?\nWell, I finally did it! I made a website. And to celebrate, I’m going to share how I did it. And, why did I do it? Two main reasons: 1. to share materials that might be useful for others, 2. to document some things for myself all in one place.\nResources\nBefore I start, I want to share some of the resources I used.\nAlison Hill and Desirée De Leon’s webinar about Sharing on Short Notice. WATCH THIS before going any further. This is where I was first introduced to netlify and it blew my mind how easy it was to turn my html files into a website.\nThe distill documentation, which also happens to be a … distill website!\nOther people’s distill websites: Ijeamaka Anyene, Shannon Pileggi(aka Piping Hot Data), Miles McBain, and Tom Mock.\nAlison Hill’s website for design inspiration and for content. I think I find a new resource every time I visit her site. For example, check out her talk on Recent updates in the R markdown family.\nAnd more! I’ll try to make note of difference resources I used throughout the blog.\nIf you would like to follow along with the video I created, find it here.\n\n\n\n",
     "preview": "posts/2020-12-09-buildingdistill/blog_distill_photo.png",
-    "last_modified": "2020-12-15T14:36:51-06:00",
-    "input_file": {}
+    "last_modified": "2020-12-16T07:53:45-06:00",
+    "input_file": {},
+    "preview_width": 1628,
+    "preview_height": 1042
   }
 ]

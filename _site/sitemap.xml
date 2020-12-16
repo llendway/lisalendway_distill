@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
+  <url>
+    <loc>https://lisalendway.netlify.app/blog.html</loc>
+    <lastmod>2020-12-10T10:05:09-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lisalendway.netlify.app/</loc>
+    <lastmod>2020-12-16T12:20:17-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lisalendway.netlify.app/other.html</loc>
+    <lastmod>2020-12-15T14:33:55-06:00</lastmod>
+  </url>
+  <url>
+    <loc>https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/</loc>
+    <lastmod>2020-12-16T07:53:45-06:00</lastmod>
+  </url>
+</urlset>

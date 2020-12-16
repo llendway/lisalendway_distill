@@ -1,19 +1,26 @@
 name: "website"
 title: "Lisa Lendway"
 output_dir: "_site"
+base_url: https://lisalendway.netlify.app/
+collections:
+  posts:
+    disqus: lisalendway
+    share: [twitter, linkedin]
 navbar:
   right:
     - text: "About"
       href: index.html
     - text: "R Stuff"
       href: blog.html
-    - text: "Non-R projects"
+    - text: "Non-R Stuff"
       href: other.html
     - icon: fa fa-github
       href: https://github.com/llendway
-    - icon: fa fa-linkedin
-      href: https://www.linkedin.com/in/lisa-lendway-68a00b63/
     - icon: fa fa-twitter
       href: https://twitter.com/lisalendway
+    - icon: fa-youtube-square
+      href: https://www.youtube.com/channel/UCC3CCtUrSSQoJkxodRKr89g
+    - icon: fa fa-linkedin
+      href: https://www.linkedin.com/in/lisa-lendway-68a00b63/
 output: distill::distill_article
 theme: "lisa_theme.css"
