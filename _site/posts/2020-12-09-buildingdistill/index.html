@@ -93,8 +93,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <link rel="canonical" href="https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"/>
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2020-12-15"/>
-<meta property="article:created" itemprop="dateCreated" content="2020-12-15"/>
+<meta property="article:published" itemprop="datePublished" content="2020-12-18"/>
+<meta property="article:created" itemprop="dateCreated" content="2020-12-18"/>
 <meta name="article:author" content="Lisa Lendway"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
@@ -120,14 +120,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
 <meta name="citation_title" content="Lisa Lendway: Building a {distill} website"/>
 <meta name="citation_fulltext_html_url" content="https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"/>
-<meta name="citation_online_date" content="2020/12/15"/>
-<meta name="citation_publication_date" content="2020/12/15"/>
+<meta name="citation_online_date" content="2020/12/18"/>
+<meta name="citation_publication_date" content="2020/12/18"/>
 <meta name="citation_author" content="Lisa Lendway"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","preview","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Building a {distill} website"]},{"type":"character","attributes":{},"value":["A journey through how this website came to be"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Lisa Lendway"]}]}]},{"type":"character","attributes":{},"value":["12-15-2020"]},{"type":"character","attributes":{},"value":["blog_distill_photo.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_float","code_download"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"]},{"type":"character","attributes":{},"value":["https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","preview","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Building a {distill} website"]},{"type":"character","attributes":{},"value":["A journey through how this website came to be"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Lisa Lendway"]}]}]},{"type":"character","attributes":{},"value":["12-18-2020"]},{"type":"character","attributes":{},"value":["blog_distill_photo.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"]},{"type":"character","attributes":{},"value":["https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2340,7 +2340,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Building a {distill} website","description":"A journey through how this website came to be","authors":[{"author":"Lisa Lendway","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2020-12-15T00:00:00.000+00:00","citationText":"Lendway, 2020"}
+{"title":"Building a {distill} website","description":"A journey through how this website came to be","authors":[{"author":"Lisa Lendway","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2020-12-18T00:00:00.000+00:00","citationText":"Lendway, 2020"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2385,7 +2385,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <div class="d-byline">
   Lisa Lendway  
   
-<br/>12-15-2020
+<br/>12-18-2020
 </div>
 
 <div class="d-article">
@@ -2395,23 +2395,114 @@ d-appendix d-footnote-list a.footnote-backlink {
 <ul>
 <li><a href="#why-a-website">Why a website?</a></li>
 <li><a href="#resources">Resources</a></li>
+<li><a href="#building-the-site">Building the site</a><ul>
+<li><a href="#setting-up-a-github-repo-starting-the-project">Setting up a GitHub repo &amp; starting the project</a></li>
+</ul></li>
+<li><a href="#building-the-site-for-the-first-time">Building the site for the first time</a></li>
+<li><a href="#customize-the-home-page">Customize the home page</a></li>
+<li><a href="#add-the-blog-and-create-your-first-post">Add the blog and create your first post</a></li>
+<li><a href="#further-modify-_site.yml">Further modify <code>_site.yml</code></a></li>
+<li><a href="#netlify">Publish the site via netlify</a></li>
+<li><a href="#make-it-yours">Make it yours!</a></li>
 </ul>
 </nav>
 </div>
 <h2 id="why-a-website">Why a website?</h2>
 <p>Well, I finally did it! I made a website. And to celebrate, I’m going to share how I did it. And, why did I do it? Two main reasons: 1. to share materials that might be useful for others, 2. to document some things for myself all in one place.</p>
+<p>I opted for a {distill} site because it seemed like it would allow me enough freedom to customize my site and not so much freedom that I would get bogged down in details (ie. choosing colors … oops, I still spent a lot of time on that).</p>
 <h2 id="resources">Resources</h2>
 <p>Before I start, I want to share some of the resources I used.</p>
 <ul>
-<li><p>Alison Hill and Desirée De Leon’s <a href="https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/">webinar</a> about Sharing on Short Notice. WATCH THIS before going any further. This is where I was first introduced to <a href="https://www.netlify.com/">netlify</a> and it blew my mind how easy it was to turn my html files into a website.</p></li>
+<li><p>Alison Hill and Desirée De Leon’s <a href="https://rstudio.com/resources/webinars/sharing-on-short-notice-how-to-get-your-materials-online-with-r-markdown/">webinar</a> about Sharing on Short Notice. <strong>WATCH THIS</strong> before going any further. This is where I was first introduced to <a href="https://www.netlify.com/">netlify</a> and it blew my mind how easy it was to turn my html files into a website. You might even start with that first before jumping into a website. You also might find you like some of the other options they discuss more than {distill}.</p></li>
 <li><p>The distill <a href="https://rstudio.github.io/distill/">documentation</a>, which also happens to be a … distill website!</p></li>
-<li><p>Other people’s distill websites: <a href="https://ijeamaka-anyene.netlify.app/">Ijeamaka Anyene</a>, <a href="https://www.pipinghotdata.com/about.html">Shannon Pileggi</a>(aka Piping Hot Data), <a href="https://milesmcbain.xyz/">Miles McBain</a>, and <a href="https://themockup.blog/">Tom Mock</a>.</p></li>
-<li><p>Alison Hill’s <a href="https://alison.rbind.io/">website</a> for design inspiration and for content. I think I find a new resource every time I visit her site. For example, check out her <a href="https://alison.rbind.io/talk/2020-larug/">talk</a> on Recent updates in the R markdown family.<br />
-</p></li>
+<li><p>Other people’s distill websites: <a href="https://ijeamaka-anyene.netlify.app/">Ijeamaka Anyene</a>, <a href="https://www.pipinghotdata.com/about.html">Shannon Pileggi</a>(aka Piping Hot Data), <a href="https://milesmcbain.xyz/">Miles McBain</a>, <a href="https://themockup.blog/">Tom Mock</a>, and more!</p></li>
+<li><p>Alison Hill’s <a href="https://alison.rbind.io/">website</a> for A+ content and design inspiration. I think I find a new resource every time I visit her site. For example, check out her <a href="https://alison.rbind.io/talk/2020-larug/">talk</a> on Recent updates in the R markdown family.</p></li>
 <li><p>And more! I’ll try to make note of difference resources I used throughout the blog.</p></li>
 </ul>
 <p>If you would like to follow along with the video I created, find it <a href="https://youtu.be/Fm3bsYCilEU">here</a>.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h2 id="building-the-site">Building the site</h2>
+<p>Now, let’s get on to creating the site. I am going to embed YouTube videos along the way. This is actually all the same YouTube video, but I will set them at the point I am discussing so it’s easier for you to skip parts if you’d like.</p>
+<h3 id="setting-up-a-github-repo-starting-the-project">Setting up a GitHub repo &amp; starting the project</h3>
+<p><em>See Tom Mock’s post <a href="https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/#step-7-add-to-git">here</a>. I think his way of doing this makes more sense than mine. Unfortunately, I saw it after I did mine :(</em></p>
+<p>I’m trying to get into the habit of starting all my projects with a GitHub repo. So, that’s what I did here, too. Here are all the steps:</p>
+<ul>
+<li>Create a repo<br />
+</li>
+<li>Create project in R Studio by cloning the repo<br />
+</li>
+<li>Load {distill} library<br />
+</li>
+<li>Create a “starter” site using the <code>create_website()</code> function. I used this rather than <code>create_blog()</code> because I wanted to to make my main page an <em>About</em> page rather than the blog. I will add the blog part later. Read the {distill} <a href="https://rstudio.github.io/distill/website.html#getting-started">documentation</a> to help you decide which you should do. Because I created my GitHub repo first, I had to do some weird things to fix the folder structure. It works, but it’s a little ugly.
+<ul>
+<li>Move all files except the .Rproj one from the folder just created to the main repository folder.<br />
+</li>
+<li>Delete the website folder (should be empty except the .Rproj file).<br />
+</li>
+<li>Delete the README.md file in the main repository folder (when I didn’t, the site wouldn’t build later).</li>
+</ul></li>
+</ul>
+<p>Or follow along in the video (through minute 8:04):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fm3bsYCilEU?start=186" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="building-the-site-for-the-first-time">Building the site for the first time</h2>
+<p>Next, we want to build the site. In order to do this in an easy way, save all your files, close R Studio and reopen it, making sure to be in the project for your distill site. When you do this, a Build tab should appear in your panel in the upper right corner (or wherever you typically have your Environment, History, etc.). Click the Build Website icon and you should see your site! (8:25 in the video, if you want to see me do it.)</p>
+<p>At this point, there are many different directions you could go. I’ll tell you about what I did. If you don’t want to do a lot more customization, you can jump to <a href="#netlify"><strong>??</strong></a> to find out an easy way to publish your website.</p>
+<h2 id="customize-the-home-page">Customize the home page</h2>
+<p>I wanted my “Home” page to be my “About” page. To do this, I first made some changes to the <code>_site.yml</code> file, deleting the “About” portion of the navbar and renaming the text for the homepage, “About”.</p>
+<p>Then, to start customizing my “About” page, I add a photo of myself to the <code>index.Rmd</code> file and put in some placeholders for places I will write some information.</p>
+<p>Follow along in the video (through minute 17:35):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fm3bsYCilEU?start=556" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="add-the-blog-and-create-your-first-post">Add the blog and create your first post</h2>
+<p>If you went the blog route from the beginning, you won’t need to do this part. Note that in the video, I did things in the wrong order</p>
+<ul>
+<li>Add a post using <code>create_post("mypost")</code>. This will generate an R Markdown file with the name <code>mypost.Rmd</code> (unless you change the slug), a <code>_posts</code> folder, and a folder that is titled with the date and the name of the post. By starting with the date, it will keep your posts in a nice order :)<br />
+</li>
+<li>Edit your blog post R markdown file at will. Be sure to <strong>knit this file</strong> so that it shows up on the blog. These files are not knit automatically. That is purposeful.<br />
+</li>
+<li>Create a new R Markdown file with ONLY a yaml heading with a title and listing. Save it to the main repository.</li>
+<li>Modify the <code>_site.yml</code> file to link the listing page. The text can be whatever you would like - this is what will show up on the navbar. The href value is the .html of the listing .Rmd file.<br />
+</li>
+<li>Add a customized blog preview image. Put the image you want to use in the folder for the blog post. In the yaml heading of your blog’s R Markdown file, add <code>preview: image.png</code> where <code>image.png</code> is the name of your image. By default, the preview will be the first plot generated in your R code.</li>
+</ul>
+<p>Follow along in the video (through minute 33:27):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fm3bsYCilEU?start=1054" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="further-modify-_site.yml">Further modify <code>_site.yml</code></h2>
+<p>In this part, I add some custom icons to the top navbar of the site. These include a personal favicon on the left side (I end up getting rid of it, though) and links to my GitHub, LinkedIn, and twitter pages (and later I add one to my YouTube channel).</p>
+<p>Add the following to the <code>_site.yml</code> file after the <code>navbar</code> heading. Be careful of indentation. You can check out my file <a href="https://github.com/llendway/lisalendway_distill/blob/main/_site.yml">here</a> (I have edited more since making the video, though).</p>
+<pre><code>- icon: fa fa-github
+  href: https://github.com/YOUR_USERNAME
+- icon: fa fa-linkedin
+  href: https://www.linkedin.com/in/YOUR_LINKEDIN/
+- icon: fa fa-twitter
+  href: https://twitter.com/YOUR_TWITTER</code></pre>
+<p>To add a personalized favicon, add the following after <code>navbar:</code>, where <code>ll.png</code> is personal favicon. You can also add a link to a website where it goes when you click on it. Again, be careful of indenting.</p>
+<pre><code>  logo:
+    image: ll.png</code></pre>
+<p>Follow the video below (through minute 44:22). When I did this the first time, I made some mistakes, so I have you skipping through that part of the video.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fm3bsYCilEU?start=2443" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="netlify">Publish the site via netlify</h2>
+<p>Now that you have a website, you can easily publish it via <a href="https://www.netlify.com/">netlify</a>. I will show you how to link it to your GitHub repo so that every time to you push changes to GitHub, your website will reflect those changes. I recommend setting up an account on netlify first.</p>
+<p>Watch the video to see how I do it (through minute 48:22):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fm3bsYCilEU?start=2740" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="make-it-yours">Make it yours!</h2>
+<p>The last piece is to do some customization. Thanks to the wonderful {distill} authors, we can use the <code>create_theme()</code> function to guide us through modifying some css. I am a complete novice when it comes to css, so having an easier way to work with it is extremely helpful. I highly recommend reading through the documentation about <a href="https://rstudio.github.io/distill/website.html#theming">theming</a> and the <a href="https://blog.rstudio.com/2020/12/07/distill/#theming">recent updates</a>. And read thoroughly (I may not have done that the first time)!</p>
+<ul>
+<li>Use <code>create_theme("my_theme")</code> to generate a <code>my_theme.css</code> file with some starter css code.<br />
+</li>
+<li>Make changes as desired.<br />
+</li>
+<li>At the bottom, you can add custom css, too. In the video, I only made one change using custom css - changing the background color. And I did it incorrectly! I tried putting it in the middle of the {distill} css code, but I needed to put it at the bottom, after the {distill} css. You can see where I do it correctly in my current <a href="https://github.com/llendway/lisalendway_distill/blob/main/lisa_theme.css">css</a> file.<br />
+</li>
+<li>Add <code>theme: "my_theme.css"</code> to the bottom of the <code>_site.yml</code> file.</li>
+</ul>
+<p>You can watch the video until the end, if you’d like:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fm3bsYCilEU?start=2964" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
   <p class="social_footer">
@@ -2458,7 +2549,7 @@ var disqus_config = function () {
 <div class="appendix-bottom">
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Lendway (2020, Dec. 15). Lisa Lendway: Building a {distill} website. Retrieved from https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/</pre>
+  <pre class="citation-appendix short">Lendway (2020, Dec. 18). Lisa Lendway: Building a {distill} website. Retrieved from https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/</pre>
   <p>BibTeX citation</p>
   <pre class="citation-appendix long">@misc{lendway2020building,
   author = {Lendway, Lisa},
