@@ -1,0 +1,26 @@
+---
+title: "Welcome to the Jungle ... Garden"
+description: |
+  Creating an R data package and a fun dataset about my garden
+author:
+  - name: Lisa Lendway
+date: 12-30-2020
+preview: gardenr.png
+twitter:
+  site: "@lisalendway"
+  creator: "@lisalendway"
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+

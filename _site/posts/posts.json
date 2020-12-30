@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2020-12-30-welcometothejungle/",
+    "title": "Welcome to the Jungle ... Garden",
+    "description": "Creating an R data package and a fun dataset about my garden",
+    "author": [
+      {
+        "name": "Lisa Lendway",
+        "url": {}
+      }
+    ],
+    "date": "2020-12-30",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": "posts/2020-12-30-welcometothejungle/gardenr.png",
+    "last_modified": "2020-12-30T16:06:22-06:00",
+    "input_file": "welcometothejungle.utf8.md",
+    "preview_width": 518,
+    "preview_height": 600
+  },
+  {
     "path": "posts/2020-12-09-buildingdistill/",
     "title": "Building a {distill} website",
     "description": "A journey through how this website came to be",
