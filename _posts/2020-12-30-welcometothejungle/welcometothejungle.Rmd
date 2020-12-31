@@ -77,7 +77,7 @@ At the beginning the summer, I really enjoyed weighing all the harvests. It was 
 
 ## Creating {gardenR}, a Data Package
 
-After using the data I collected with two sections of my Introductory Data Science students, I decided it was time to package it up and share it with others.
+After using the data I collected with two sections of my Introductory Data Science students, I decided it was time to package it up and share it with others. If you want to see examples of how I used the data, check out the tutorials on my course [website](https://ds112-lendway.netlify.app/). 
 
 ### Step 0: Make a hex sticker!
 
