@@ -1455,6 +1455,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><a href="#step-0-make-a-hex-sticker">Step 0: Make a hex sticker!</a></li>
 <li><a href="#step-1-read-some-great-resources">Step 1: Read some great resources</a></li>
 <li><a href="#step-2-make-the-package">Step 2: Make the package</a></li>
+<li><a href="#step-3-share-the-package-with-others">Step 3: Share the package with others</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -1480,7 +1481,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <img src="squash_arch.jpg" style="width:40.0%" alt="" /><figcaption>Under the squash/pumpkin arch</figcaption>
 </figure>
 </center>
-<p>I am personally most proud of the brick paths - I laid each brick except for the occasional help from my kids and neighbor kids who I paid $.10/brick. I also have to give my husband Chris credit for the fence and raised bed boxes, although I did make all the fence post holes (with a manual fence post digger!).</p>
+<p>I am personally most proud of the brick paths - I laid each individual brick except for the occasional help from my kids and neighbor kids who I paid $.10/brick (thankfully they got bored quickly!). I also have to give my husband Chris credit for the fence and raised bed boxes, although I did make all the fence post holes (with a manual fence post digger!).</p>
 <h2 id="collecting-the-data">Collecting the Data</h2>
 <p>Before I could make a data package, I had to collect the data. This was both an awful and great experience. I think anyone who analyzes data should have a go at collecting their own data at least once. Even in this very small endeavor of mine, I learned a lot.</p>
 <p>I took some time thinking about the data I might want to analyze and tried my best to set up spreadsheets to collect everything I thought I would need. I made four Google sheets:</p>
@@ -1517,12 +1518,12 @@ Figure 1: Bird’s-eye view of garden
 <h3 id="step-1-read-some-great-resources">Step 1: Read some great resources</h3>
 <p>The three resources I ended up using are:</p>
 <ul>
-<li><p><a href="https://rstudio4edu.github.io/rstudio4edu-book/data-pkg.html#data-pkg">rstudio4edu</a> Chapter 12: Create a data package by Desirée De Leon and Alison Hill. I’m pretty sure that everything I learn about R lately is from these two. Although they are both extremely experienced, they are amazingly good at writing tutorials and how-to’s from the perspective of someone who has never done the task before. I loved that they put a “Is this tutorial for you?” at the top of the section. Right away i knew - yes! That is me! This is for me!</p></li>
-<li><p><a href="https://r-mageddon.netlify.app/post/writing-an-r-package-from-scratch/">Writing an R Package from Scratch</a> by Tomas Westlake, which is an update of Hilary Parker’s <a href="https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/">post</a>.</p></li>
+<li><p><a href="https://rstudio4edu.github.io/rstudio4edu-book/data-pkg.html#data-pkg">rstudio4edu</a> Chapter 12: Create a data package by Desirée De Leon and Alison Hill. I’m pretty sure that everything I learn about R lately is from these two. Although they are both experienced R users, they are also amazingly good at writing tutorials and how-to’s from the perspective of someone who has never done the task before. I loved the “Is this tutorial for you?” checklist at the top of the section. Right away I knew - yes! That is me! This is for me!</p></li>
+<li><p><a href="https://r-mageddon.netlify.app/post/writing-an-r-package-from-scratch/">Writing an R Package from Scratch</a> by Tomas Westlake, which is an update of Hilary Parker’s <a href="https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/">blog post</a> on the same topic.</p></li>
 <li><p><a href="https://r-pkgs.org/git.html#github-init">R Packages</a> book - really just section 18.9 and for looking at a second set of screenshots of documentation to make sure I did it correctly. There is probably a lot more I should read about in here, which I hope to do someday.</p></li>
 </ul>
 <h3 id="step-2-make-the-package">Step 2: Make the package</h3>
-<p>Because there are already so many great resources out there, I am going to highlight how I used them, rather than make a new resource. I ended up using a combination of resources because I wasn’t able to follow any of the instructions exactly, without running into differences or errors. There is a good chance this is due to some mistake I made along the way.</p>
+<p>Because there are already so many great resources out there, I am going to highlight how I used them, rather than make a new resource. I ended up using a combination of resources because I wasn’t able to follow any of the instructions exactly, without running into differences or errors. There is a good chance this is due to some mistakes I made along the way.</p>
 <ol type="1">
 <li>Load required libraries. This step seemed to be the same across all resources.</li>
 </ol>
@@ -1542,10 +1543,11 @@ Figure 1: Bird’s-eye view of garden
 git branch -M main
 git push -u origin main</code></pre>
 <ol start="4" type="1">
-<li><p>After I had it synched with GitHub, I used Parts 2-6 (Sections 12.4-12.8) of the <a href="https://rstudio4edu.github.io/rstudio4edu-book/data-pkg.html#part-2-add-some-clean-data">rstudio4edu resource</a>. Follow their steps carefully - they even remind you to commit!</p></li>
+<li><p>After I had it synched with GitHub, I used Parts 2-6 (Sections 12.4-12.8) of the <a href="https://rstudio4edu.github.io/rstudio4edu-book/data-pkg.html#part-2-add-some-clean-data">rstudio4edu resource</a>. I followed their steps exactly - they even remind you to commit!</p></li>
 <li><p>Add a README. I wanted a nice page to welcome people. I followed Steps 8 &amp; 9 of <a href="https://r-mageddon.netlify.app/post/writing-an-r-package-from-scratch/">Writing an R Package from Scratch</a> to help me create a nice README file that includes the hex sticker logo :)</p></li>
-<li><p>Share! That’s what I plan to do very soon on Twitter. Check out the {gardenR} package repo <a href="https://github.com/llendway/gardenR">here</a>.</p></li>
 </ol>
+<h3 id="step-3-share-the-package-with-others">Step 3: Share the package with others</h3>
+<p>That’s what I plan to do very soon on Twitter. If you are reading this, it probably means I did it. Check out the {gardenR} package repo <a href="https://github.com/llendway/gardenR">here</a>.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
