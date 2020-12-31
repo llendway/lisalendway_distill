@@ -21,6 +21,58 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## The Jungle Garden
 
+I started vegetable gardening in 2004 and have been hooked ever since. During graduate school, while learning about split-plots and nested designs, I dreamed about experimenting in my own garden but never quite found the motivation.
+
+This past summer I finally decided to at least collect some data from my garden. I did this for two reasons: 1. I was curious about how much food I produced. 2. I wanted to use the data in my Introductory Data Science course at Macalester College. I knew the data would be fairly simple and I liked that it would be a bit personal and give a way for me to connect with students. This felt especially important this year while I have been teaching remotely.
+
+I could spend a lot of time talking about my garden, but I'll keep it brief. I plan to eventually put a post in my "Non-R Stuff" area for those who are into gardening as much as they are into R. But, for now, I'll just show some photos of early season vs. late season garden. Hopefully this helps illustrate why I fondly refer to it as the jungle garden. Truthfully, the garden at my old house was more of a jungle since it sprawled across my backyard more, but I think this one is still worthy of the name.  
+
+<center>
+
+:::: {style="display: flex;"}
+
+::: {}
+
+![Jungle Garden - beginning of season](beginning.jpg){width=90%}
+
+:::
+
+::: {}
+
+![Jungle Garden - peak season](top_view.jpg){width=90%}
+
+:::
+
+::::
+
+</center>
+
+I am personally most proud of the brick paths - I laid almost all of them except for the occasional help from my kids and neighbor kids who I paid $.10/brick. I also have to give my husband Chris credit for the fence and raised bed boxes, although I did make all the fence post holes (with a manual fence post digger).
+
+## Collecting the Data
+
+Before I could make a data package, I had to collect the data. This was both an awful and great experience. I think anyone who analyzes data should have a go at collecting their own data at least once. Even in this very small endeavor of mine, I learned a lot. 
+
+I took some time thinking about the data I might want to analyze and tried my best to set up spreadsheets to collect everything I thought I would need. I made four Google sheets:
+
+1. Spending: how much I spent on seeds, plants, etc. for the garden.  
+2. Plot coordinates: a grid to identify the various plots in the garden.
+<aside>
+![Bird's-eye View](garden_birdseye.png)
+3. Planting dates: when, where, and how much of each seed/plant was planted  
+4. Harvest data: how much of each vegetable variety was harvested. Each row is a "harvest" of a particular vegetable variety. So, each time I harvested a particular vegetable/variety combination, I weighed the entire harvest. There could be multiple harvests of a vegetable/variety combination in a single day. There are two exceptions: all pumpkin and winter squash (vegetable = "squash") were weighed individually.
+</aside>
+
+I liked putting the data in Google sheets because I could use Jenny Bryan's {googlesheets4} package to interact with the data as I was collecting it. 
+
+At the beginning the summer, I really enjoyed weighing all the harvests. It was exciting to see how much food we grew on our own! But, by mid-summer, I was already starting to get annoyed by having to collect the data. Do you notice there's very little raspberry data? That's because I ate it before I weighed it - usually while weeding the garden. I also noticed (just anecdotally) that I felt more pressure on myself to use all the food I harvested and not let any go to waste. So, I think my family and I did a good job eating even more of the veggies than usual and neighbors probably got annoyed with me asking them to please take some zucchinis off my hands. 
+
+## Creating {gardenR}, a Data Package
+
+### Resources
+
+### Steps
 
 

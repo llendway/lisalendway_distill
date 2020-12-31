@@ -118,7 +118,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["gardenr.png"]}
+  {"type":"character","attributes":{},"value":["beginning.jpg","garden_birdseye.png","gardenr.png","squash_arch.jpg","top_view.jpg","welcometothejungle_files/anchor-4.2.2/anchor.min.js","welcometothejungle_files/bowser-1.9.3/bowser.min.js","welcometothejungle_files/distill-2.2.21/template.v2.js","welcometothejungle_files/jquery-1.11.3/jquery.min.js","welcometothejungle_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1445,6 +1445,57 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#the-jungle-garden">The Jungle Garden</a></li>
+<li><a href="#collecting-the-data">Collecting the Data</a></li>
+<li><a href="#creating-gardenr-a-data-package">Creating {gardenR}, a Data Package</a><ul>
+<li><a href="#resources">Resources</a></li>
+<li><a href="#steps">Steps</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
+<h2 id="the-jungle-garden">The Jungle Garden</h2>
+<p>I started vegetable gardening in 2004 and have been hooked ever since. During graduate school, while learning about split-plots and nested designs, I dreamed about experimenting in my own garden but never quite found the motivation.</p>
+<p>This past summer I finally decided to at least collect some data from my garden. I did this for two reasons: 1. I was curious about how much food I produced. 2. I wanted to use the data in my Introductory Data Science course at Macalester College. I knew the data would be fairly simple and I liked that it would be a bit personal and give a way for me to connect with students. This felt especially important this year while I have been teaching remotely.</p>
+<p>I could spend a lot of time talking about my garden, but I’ll keep it brief. I plan to eventually put a post in my “Non-R Stuff” area for those who are into gardening as much as they are into R. But, for now, I’ll just show some photos of early season vs. late season garden. Hopefully this helps illustrate why I fondly refer to it as the jungle garden. Truthfully, the garden at my old house was more of a jungle since it sprawled across my backyard more, but I think this one is still worthy of the name.</p>
+<center>
+<div style="display: flex;">
+<div>
+<figure>
+<img src="beginning.jpg" style="width:90.0%" alt="" /><figcaption>Jungle Garden - beginning of season</figcaption>
+</figure>
+</div>
+<div>
+<figure>
+<img src="top_view.jpg" style="width:90.0%" alt="" /><figcaption>Jungle Garden - peak season</figcaption>
+</figure>
+</div>
+</div>
+</center>
+<p>I am personally most proud of the brick paths - I laid almost all of them except for the occasional help from my kids and neighbor kids who I paid $.10/brick. I also have to give my husband Chris credit for the fence and raised bed boxes, although I did make all the fence post holes (with a manual fence post digger).</p>
+<h2 id="collecting-the-data">Collecting the Data</h2>
+<p>Before I could make a data package, I had to collect the data. This was both an awful and great experience. I think anyone who analyzes data should have a go at collecting their own data at least once. Even in this very small endeavor of mine, I learned a lot.</p>
+<p>I took some time thinking about the data I might want to analyze and tried my best to set up spreadsheets to collect everything I thought I would need. I made four Google sheets:</p>
+<ol type="1">
+<li>Spending: how much I spent on seeds, plants, etc. for the garden.<br />
+</li>
+<li>Plot coordinates: a grid to identify the various plots in the garden.
+<aside>
+<img src="garden_birdseye.png" title="fig:" alt="Bird’s-eye View" /></li>
+<li>Planting dates: when, where, and how much of each seed/plant was planted<br />
+</li>
+<li>Harvest data: how much of each vegetable variety was harvested. Each row is a “harvest” of a particular vegetable variety. So, each time I harvested a particular vegetable/variety combination, I weighed the entire harvest. There could be multiple harvests of a vegetable/variety combination in a single day. There are two exceptions: all pumpkin and winter squash (vegetable = “squash”) were weighed individually.
+</aside></li>
+</ol>
+<p>I liked putting the data in Google sheets because I could use Jenny Bryan’s {googlesheets4} package to interact with the data as I was collecting it.</p>
+<p>At the beginning the summer, I really enjoyed weighing all the harvests. It was exciting to see how much food we grew on our own! But, by mid-summer, I was already starting to get annoyed by having to collect the data. Do you notice there’s very little raspberry data? That’s because I ate it before I weighed it - usually while weeding the garden. I also noticed (just anecdotally) that I felt more pressure on myself to use all the food I harvested and not let any go to waste. So, I think my family and I did a good job eating even more of the veggies than usual and neighbors probably got annoyed with me asking them to please take some zucchinis off my hands.</p>
+<h2 id="creating-gardenr-a-data-package">Creating {gardenR}, a Data Package</h2>
+<h3 id="resources">Resources</h3>
+<h3 id="steps">Steps</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
