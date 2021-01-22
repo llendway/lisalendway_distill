@@ -1,0 +1,85 @@
+---
+title: "Fall 2020 teaching reflection"
+description: |
+  Teaching was a lot different in the Fall of 2020. All my courses were online and the semester was cut in half. Here's what I learned.
+author:
+  - name: Lisa Lendway
+    url: {}
+date: 01-22-2021
+twitter:
+  site: "@lisalendway"
+  creator: "@lisalendway"
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Yesterday I began my first day of teaching of the third module (I'll tell you what that is in just a minute) of the year at Macalester College. I wanted to take some time to reflect on what has and has not gone well this year so far, largely so future me remembers but maybe someone out there in the wide world of internet will also find it interesting.
+
+## Modules and Zoom
+
+After being thrown into online teaching in March of 2020, I was really looking forward to going back to "regular" classes in the Fall 2020. But, by mid-summer, it was clear that this year of teaching would be anything but normal. Macalester made the decision to use modules, rather than semesters, so that we would have an easier time with any transitions that might need to happen mid-year. So, instead of students taking four courses in each of two, 15-week semesters, they would take two courses across four, 7.5 week modules. And those of us teaching full time would teach five courses across the four modules. 
+
+Additionally, we had strict policies (thankfully) around in-person learning, with distancing requirements, mask enforcement, etc. We also had certain periods of time where we were required to teach remotely, like at the beginning of the module after students first moved back to campus and between Thanksgiving and winter break. Since my class sizes were large and I needed to be able to see students computer screens up close, I taught all my classes completely online.
+
+## Goals in re-organizing Intro to Data Science
+
+I feel very lucky that my teaching schedule had me teaching one section of Intro to Data Science in each of the first two modules and two more sections of it in the third module. This meant that, in the fall, I could concentrate on developing materials for that course and not have to think about much else work-wise. 
+
+In re-organizing my course, I was also very thankful to have a good base of materials that my colleagues and I had created. But, even before we moved online, I had some changes I wanted to make. Moving online made these even more necessary. Here were some of my goals:
+
+* Create videos to introduce new concepts and demo videos or screencasts of live coding.  
+* Make the material available to a larger audience than just my students.  
+* Align assignments with learning objectives in the course.  
+* Provide resources/readings where students can learn more about data visualization principles.  
+* Be more involved in grading and create assignments that allow me to give students fast, quick feedback.  
+* Introduce the students to the wider R community and  encourage them to be part of it. 
+
+## What I did
+
+First, I should probably tell you about the course. In my syllabus, I describe the course as "An introductory data science course where we will collect, wrangle, graph, and model data to gain insights and help tell stories. We will do all of this in a reproducible way using R and R Studio." And the learning objectives, include:
+
+* Appreciate the role of data science in a wide range of disciplines across the social sciences, natural sciences, humanities, and fine arts.
+* Identify, collect, and wrangle data from multiple sources (e.g.: web scraping, existing datasets).
+* Use the data visualization principles learned in the course to effectively create graphs that help gain insights or tell a story about the data.
+* Assess the quality of graphs they see with specific focus on how the graphs might miscommunicate the underlying data or how they might do harm.    
+* Conduct basic exploratory data analyses (eg: data visualization / numerical summaries of trend / prediction).
+* Find code online and adapt it to the task at hand.
+* Write "friendly" R code that is easily read and adapted by others.
+* Communicate your results (both orally & in writing) so that they are reproducible and accessible for a broad audience.
+* Work in a group of peers on a project, dividing the work equitably. 
+
+If you are interested in details of what we cover in the course, you can check out the [course website](https://ds112-lendway.netlify.app/), but I will also lisk some of the big topics:
+
+* Creating graphs with `ggplot2`.
+* Wrangling data with `dplyr`. 
+* More advanced wrangling (joins, pivoting, `forcats`, `stringr`, and some `tidyr` functions).  
+* Mapping with ggmap, `geom_map()`, and `leaflet`.  
+* Animation and interactivity, including `ggplotly`, `gganimate`, and very basic `shiny`.  
+* Importing, scraping, and nicely presenting data (`rvest`, `patchwork`, `gt`). 
+
+Because I just gave you a link to the course website above, you can already see that I succeeded in at least one task I set out to do! Yay! I made a course website and shared the material with the broader R community ... via Twitter. The course website includes tutorials with videos that introduce new concepts and code, screencasts where I do live coding, links to other resources, and practice problems with solutions. Students can download the slides that go with the intro videos right under the embedded video and they can download the R Markdown files, with and without code, that I go through in the screencast. 
+
+Students were encouraged to watch the videos before coming to class and they seemed to do that, at least from what I saw by the number of views of the videos on YouTube. Most of class time was spent in breakout rooms where the students would work on assignments. I would visit breakout rooms to see if students had questions or I would remain in the "main" room so that students could return there from their breakout room to ask me questions.
+
+In the past when I have taught this course, I did a small amount of lecturing to introduce material and students still spent a lot of time in class working on assignments (ie. homework). 
+
+
+## Things that went well
+
+## Things that could improve more
+
+* Use learnr
+
+* Class too many days a week
+
+* How to interact better on zoom
+
