@@ -4,8 +4,8 @@ description: |
   Teaching was a lot different in the Fall of 2020. All my courses were online and the semester was cut in half. Here's what I learned.
 author:
   - name: Lisa Lendway
-    url: {}
 date: 01-22-2021
+preview: monster_support.jpg
 twitter:
   site: "@lisalendway"
   creator: "@lisalendway"
@@ -14,21 +14,22 @@ output:
     self_contained: false
     toc: true
     toc_float: true
-draft: true
 ---
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+library(downloadthis)
 ```
 
-Yesterday I began my first day of teaching of the third module (I'll tell you what that is in just a minute) of the year at Macalester College. I wanted to take some time to reflect on what has and has not gone well this year so far, largely so future me remembers but maybe someone out there in the wide world of internet will also find it interesting.
+Last Thursday I began my first day of teaching of the third module (I'll tell you what that is in just a minute) of the year at Macalester College. I wanted to take some time to reflect on what has and has not gone well this year so far, largely so future me remembers but maybe someone out there in the wide world of the internet will also find it interesting.
 
 ## Modules and Zoom
 
-After being thrown into online teaching in March of 2020, I was really looking forward to going back to "regular" classes in the Fall 2020. But, by mid-summer, it was clear that this year of teaching would be anything but normal. Macalester made the decision to use modules, rather than semesters, so that we would have an easier time with any transitions that might need to happen mid-year. So, instead of students taking four courses in each of two, 15-week semesters, they would take two courses across four, 7.5 week modules. And those of us teaching full time would teach five courses across the four modules. 
+After being thrown into online teaching in March of 2020, I was really looking forward to going back to in-person classes in the Fall 2020. But, by mid-summer, it was clear that this year of teaching would be anything but normal. Macalester made the decision to use modules, rather than semesters, so that we would have an easier time with any transitions that might need to happen mid-year. So, instead of students taking four courses in each of two, 15-week semesters, they would take two courses across four, 7.5 week modules. And those of us teaching full time would teach five courses across the four modules. 
 
-Additionally, we had strict policies (thankfully) around in-person learning, with distancing requirements, mask enforcement, etc. We also had certain periods of time where we were required to teach remotely, like at the beginning of the module after students first moved back to campus and between Thanksgiving and winter break. Since my class sizes were large and I needed to be able to see students computer screens up close, I taught all my classes completely online.
+Additionally, we had strict policies (thankfully) around in-person learning, with distancing requirements, mask enforcement, etc. We also had certain periods of time where we were required to teach remotely, like at the beginning of the module after students first moved back to campus and between Thanksgiving and winter break. Since my class sizes were large and I needed to be able to see students' computer screens up close, I taught all my classes completely online.
 
 ## Goals in re-organizing Intro to Data Science
 
@@ -36,11 +37,10 @@ I feel very lucky that my teaching schedule had me teaching one section of Intro
 
 In re-organizing my course, I was also very thankful to have a good base of materials that my colleagues and I had created. But, even before we moved online, I had some changes I wanted to make. Moving online made these even more necessary. Here were some of my goals:
 
-* Create videos to introduce new concepts and demo videos or screencasts of live coding.  
-* Make the material available to a larger audience than just my students.  
-* Align assignments with learning objectives in the course.  
+* Create videos to introduce new concepts and demo videos or screencasts of live coding. Make all of this material available to a larger audience than just my students.   
+* More clearly align assignments with learning objectives in the course.  
 * Provide resources/readings where students can learn more about data visualization principles.  
-* Be more involved in grading and create assignments that allow me to give students fast, quick feedback.  
+* Be more involved in grading and create assignments that allow me to interact more with students and give them quick feedback.  
 * Introduce the students to the wider R community and  encourage them to be part of it. 
 
 ## What I did
@@ -57,29 +57,108 @@ First, I should probably tell you about the course. In my syllabus, I describe t
 * Communicate your results (both orally & in writing) so that they are reproducible and accessible for a broad audience.
 * Work in a group of peers on a project, dividing the work equitably. 
 
-If you are interested in details of what we cover in the course, you can check out the [course website](https://ds112-lendway.netlify.app/), but I will also lisk some of the big topics:
+If you are interested in details of what we cover in the course, you can check out the [course website](https://ds112-lendway.netlify.app/), but I will also list some of the big topics:
 
 * Creating graphs with `ggplot2`.
 * Wrangling data with `dplyr`. 
 * More advanced wrangling (joins, pivoting, `forcats`, `stringr`, and some `tidyr` functions).  
-* Mapping with ggmap, `geom_map()`, and `leaflet`.  
+* Mapping with `ggmap`, `geom_map()`, and `leaflet`.  
 * Animation and interactivity, including `ggplotly`, `gganimate`, and very basic `shiny`.  
 * Importing, scraping, and nicely presenting data (`rvest`, `patchwork`, `gt`). 
 
-Because I just gave you a link to the course website above, you can already see that I succeeded in at least one task I set out to do! Yay! I made a course website and shared the material with the broader R community ... via Twitter. The course website includes tutorials with videos that introduce new concepts and code, screencasts where I do live coding, links to other resources, and practice problems with solutions. Students can download the slides that go with the intro videos right under the embedded video and they can download the R Markdown files, with and without code, that I go through in the screencast. 
+Because I just gave you a link to the course website above, you can already see that I succeeded in at least one task I set out to do! Yay! I made a course website and shared the material with the broader R community ... via Twitter, of course. The course website includes tutorials with videos that introduce new concepts and code, screencasts where I do live coding, links to other resources, and practice problems with solutions. Students can download the slides that go with the intro videos right under the embedded video and they can download the R Markdown files, with and without code, that I go through in the screencasts. 
 
 Students were encouraged to watch the videos before coming to class and they seemed to do that, at least from what I saw by the number of views of the videos on YouTube. Most of class time was spent in breakout rooms where the students would work on assignments. I would visit breakout rooms to see if students had questions or I would remain in the "main" room so that students could return there from their breakout room to ask me questions.
 
-In the past when I have taught this course, I did a small amount of lecturing to introduce material and students still spent a lot of time in class working on assignments (ie. homework). 
+In the past when I have taught this course, I did a small amount of lecturing to introduce material and students still spent a lot of time in class working on assignments (ie. homework). In these online modules, nearly all class time was spent in breakout rooms unless students had questions they wanted to discuss as an entire class, which rarely happened.  
 
+During the first two modules, the students turned did roughty five different assignments each week. It sounds like a lot (ok, it was a little too much), but some assignments were short. Below I discuss and give examples of each assignment.
+
+  **Reading/Tutorial Quizzes**: short (5-7 questions) multiple choice Moodle quizzes that cover reading and tutorial activities. These serve to assure that students do the reading and tutorials before they are needed in class. There were five quizzes and I dropped the lowest score. The students also could take each quiz three times and I keep the highest of the three. They were graded automatically in Moodle (course management system).
+
+  **Weekly Exercises (homework)**: These exercises give the students deeper practice on both coding and short writing skills. They were always due on Tuesday evenings so students spent most of class time on Mondays and Tuesdays working on these assignments in breakout rooms. There were six of these assignments and I dropped the lowest score. These were graded by my class preceptors (aka teach assistants). In the past, this was the only type of assignment students turned in. 
+  
+```{r, echo=FALSE}
+download_file(
+  path = "02_exercises.html",
+  button_label = "Sample Weekly Exericise",
+  button_type = "info",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+
+  The first set of weekly exercises tries to introduce the students to the R Studio IDE and does not have them do a lot of R coding.
+  
+```{r, echo=FALSE}
+download_file(
+  path = "01_exercises.html",
+  button_label = "1st Weekly Exericise",
+  button_type = "info",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+  
+  
+  **Perfect Garden Graph**: This was my favorite assignment! And, it got a lot of positive feedback from students as well. I collected data about my vegetable garden from the summer of 2020 and created a few datasets (it's now in an R package called [gardenR](https://github.com/llendway/gardenR)). The students came up with a question to answer using this garden data. Then, each week, they submitted a graph using that data. This assignment focused on the details of the graph that we don't usually have time for in weekly assignments and about writing nice code and annotating it. Students submitted their updated graph and code each week and I gave them feedback within a couple days that they would use to improve the graph for the next week. In the end, I collected all their final graphs and put them on a website so they could share it with their friends and family. I was so proud of what they created! See their work [here](https://garden-graphs1.netlify.app/). This assignment helped accomplish two goals: 1. It gave me an opportunity to check in with the students each week and give them feedback. 2. Since they were working on details of graphs, I assigned reading from Claus Wilke's [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/index.html) and I got to see them using what they had learned!
+
+```{r, echo=FALSE}
+download_file(
+  path = "perfect_garden_graph.html",
+  button_label = "Perfect Garden Graph assignment",
+  button_type = "info",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```
+
+  **Tidy Tuesday**: This was another successful type of assignment - participating in [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday)! Each week, students were tasked with creating a graph from the data posted for Tidy Tuesday. The point of this assignment is three-fold. First, it is to hone their graphing skills. Students have to decide what graph to make and which questions to ask. I encourage them to be creative while also maintaining the integrity of the data. Second, it is an opportunity to work on coding together in groups. On Wednesdays in class, I put students into breakout rooms where I recommend that everyone in the room decide on the type of graph they would like to create together and take turns sharing their screens and code. Third, I hope that this introduces the students to the broader R community. I encourage them to tweet out their graphs, using the hashtag `#TidyTuesday`. Because some students don't feel comfortable doing this, this module I created a class twitter account, `@MacTidyTuesday`, which they can tweet from. I also graded these assignments, which gave me another opportunity to interact with the students and see their progress. They did five of these assignments and I dropped the lowest score. 
+  
+  **Dear Data**: Sometimes it's nice to take a break from technology. The Dear Data assignments were created to allow (really, force) students to do that. These assignments were a time for them to focus on data visualization principles and design and are based on a [project](http://www.dear-data.com/theproject) by Giorgia Lupi and Stefanie Posavec. Each week, I posted a topic and the students collected their own data and created a graph from it, "by hand". Some of them did use iPads to draw but they couldn't use R or anything like that. They posted their graphs to Voicethread (a collaborative slideshow software) and voice recorded a less than one minute description. I enjoyed seeing what the students came up with and some of them were really creative. They did six of these assignments and I dropped their lowest score. 
+  
+  
+  **Project**: The project the students work on helps bring together all (or many) of the skills the students learn in the course. In short, I want them to tell an in-depth story with data. They find the data and choose the topic on their own. Their final product is either something like a blog post or a shiny app with a "user manual". They spend the last week to week and a half of the course working on the final project. 
+  
+```{r, echo=FALSE}
+download_file(
+  path = "project_description.html",
+  button_label = "Project description",
+  button_type = "info",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE
+)
+```  
 
 ## Things that went well
 
+This course is very much still a work in progress, and I learn something new every time I teach it. Overall, I was really happy with how the course went, especially being able to complete all the goals I set out for the course. Below I call out a few things I thought went particularly well.
+
+* I like the addition of the Perfect Garden Graph, Tidy Tuesday, and Dear Data assignments. It allowed me to be very involved in giving feedback without taking up  too much time. In prior versions of the class, I only gave feedback on quizzes (almost like short exams) and the final project, but the first quiz was a few weeks into the course. With these new assignments, I could see how students were doing in the first week of the course. If I thought they needed extra help, I could reach out to them directly. I also think these assignments helped the students think about the graph creation process much more than they had in the past. In weekly exercises, they are usually told which graph to make and they have to figure out the code to create it and interpret what they learned from it, but in these new assignments, they had to also decide the question to ask and how the data could help them answer that question. 
+
+* Creating videos to introduce material and code demonstration videos was very helpful. First, students who were not able to attend class had the resources they needed to learn the material and students could go over it as many times as they needed. Second, it allowed students to work through assignments during class time. So, if they had questions, I was there to answer them. Putting all of the resources for the class together on a course website was also helpful for the students so they didn't have to keep track of things in various places. 
+
 ## Things that could improve more
 
-* Use learnr
+And here's some places I will continue to try to improve the course
 
-* Class too many days a week
+* It turns out it's hard (impossible?) to condense a 15 week semester into a 7.5 week module. After two modules of teaching this course, I realize the students were expected to do too many assignments. So, for this module, I have dropped the Dear Data assignments. I think during a regular semester, it would work well to alternate this assignment with Tidy Tuesday.  
 
-* How to interact better on zoom
+* When we switched to the module system, we also moved to having class 5 days/week for 1.25 hours each period. During the first module, I still held class every day but told students Thursdays were optional. During the 2nd module, I was struggling to have even half of the students show up to class, so I moved to only having class 4 days/week.  And, this module, I have switched to having synchronous class only 3 days/week. The students are doing a lot of work for the class outside of the class, so this seems reasonable. I hope that students will enjoy being in class more since we won't have it everyday.  
+
+* I am still looking for ways to interact better with the students on Zoom. So far, I have mostly been putting them into breakout rooms and having them work on assignments. Then, I visit the breakout rooms to check in and answer questions. This module, I am trying something different on Fridays. Rather than going into breakout rooms, we will all stay together and I will go through the coding demonstration for the week (they can also watch the pre-recorded video if they can't attend). I will start it off, but I will ask for input from students and can have them share their screens. I am hoping this gets more students involved during synchronous class time.
+
+* Another thing I hope to work on later this year is incorporating {learnr} tutorials into the material. When I initially started creating materials for this class, I created it as a {learnr} tutorial (here can even try it out using the instructions [here](https://github.com/llendway/DS112tutorials)), but students were running into issues with it timing out, so I quickly gave up. Instead, I included hints and solutions to exercises later in each section of material. I think one solution might be to put only the exercises (without the YouTube videos and other things) in a {learnr} tutorial and link to that. 
+
+## What do you do?
+
+I love teaching data science and would love to hear about what other people are doing. Feel free to reach out via Twitter [`@lisalendway`](https://twitter.com/lisalendway) or [email me](mailto:lisalendway@gmail.com).
+
+
+
+
 
