@@ -142,6 +142,9 @@ This course is very much still a work in progress, and I learn something new eve
 
 * Creating videos to introduce material and code demonstration videos was very helpful. First, students who were not able to attend class had the resources they needed to learn the material and students could go over it as many times as they needed. Second, it allowed students to work through assignments during class time. So, if they had questions, I was there to answer them. Putting all of the resources for the class together on a course website was also helpful for the students so they didn't have to keep track of things in various places. 
 
+* This is completely unrelated to the material I taught. I made an effort to give positive feedback to students, both individually and as a group. These were often things that I would think in my head and would be bashful to say out loud for fear that I would for some reason embarrass students by complimenting them ... not sure why I would think that. Each time I talked to a student individually, I would try to say something positive, even if it was something small like, "Great job writing readable code. I like that you pressed enter to make a new line of code after each of the plus signs." Again, these were things I was already thinking in my head - I didn't have to rack my brain to think of positive things to say. When I wrote messages to the whole class, I made sure to thank them for things like asking questions in class and helping each other solve problems. I also let them know I was proud of their work. I have always been proud of my students' work, but I don't think I've said it out loud nearly often enough. I don't have quantitative evidence that this impacted my students, but I was glad I did it. I honestly don't know why I waited so long to do it. 
+
+
 ## Things that could improve more
 
 And here's some places I will continue to try to improve the course
