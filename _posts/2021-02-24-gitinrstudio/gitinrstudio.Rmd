@@ -1,0 +1,81 @@
+---
+title: "Getting more comfortable with Git and GitHub in RStudio"
+description: |
+  This blog post includes videos that review some Git and GitHub basics and build on that, showing ways you might work on a project together in RStudio.
+author:
+  - name: Lisa Lendway
+  - name: Heather Lendway
+date: 02-24-2021
+twitter:
+  site: "@lisalendway"
+  creator: "@lisalendway"
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(emo)
+```
+
+
+## Thank you
+
+Thanks to anyone and everyone who has ever put resources online about using Git and GitHub, especially how to use them in RStudio (see some resources below). Also, thanks to my sister, Heather Lendway, who was gracious enough to make this video with me. 
+
+## Who is this for?
+
+Initially, I intended to make this only for my students. But, as long as I was creating it, I thoght I might as well share it with more people. Keep in mind that I am NOT a Git or GitHub expert by any means. In the video, I make some mistakes and stumble through some steps - maybe you will learn from those, too. There's also a very good chance I do things in a not-so-standard way. Point those out to me, so I learn how to do this better.  
+
+## What you should already know       
+
+I assume that you have already set up Git and GitHub on your computer. If you haven't done that yet, I have some instructions [here](https://github.com/llendway/github_for_collaboration/blob/master/github_for_collaboration.md) or you can check out David Keyes's wonderful [How to Use Git/GitHub with R](https://rfortherestofus.com/2021/02/how-to-use-git-github-with-r/) blog post. For more detailed instructions and my go-to resource for questions about using Git and GitHub in R, see Jenny Bryan's [Happy Git and GitHub for the useR](https://happygitwithr.com/). 
+
+## Review
+
+In the first part of the video, we go through the following steps:
+
+1. I create a repository on [GitHub](https://github.com/). Always add a README and think about a license. I forgot to mention anything about a license in the video, but it's a good idea to have one. For information about that, see Jenny Bryan and Hadley Wickham's R Packages chapter on [Licensing](https://r-pkgs.org/license.html) or Colin Fay's [What is a license](https://thinkr-open.github.io/licensing-r/whatis.html) chapter. 
+
+2. I clone the repo from GitHub to my computer in RStudio, which also creates a an R Project and a folder on my computer.  
+
+3. I save an .Rmd file to the folder/project/repository that was just created, commit the .Rmd and .Rproj file, and push changes to GitHub.
+
+## Add a collaborator and they clone the repo
+
+In the next section of the video, I add a collaborator, Heather! (We really are two nerdy sisters `r emo::ji("nerd_face")` `r emo::ji("nerd_face")`.)  After this, we are ready to work on our project together.
+
+4. I add a collaborator, Heather.
+
+5. Heather clones the repo from GitHub to their computer in R Studio. 
+
+## Do some committing, pushing, and pulling
+
+Now we show how to work together on the project. Good reminder to remember your passwords.
+
+6. I make a change to the .Rmd file, commit, and push it to GitHub.
+
+7. Heather pulls my changes from GitHub to her computer, makes a new change, commits, and pushes to GitHub. 
+
+8. I pull in the change from GitHub. 
+
+## Communication breaks down
+
+9. In the next portion of the video, we create a merge conflict and show how to resolve it. Phew, that wasn't so bad. Remember, communication is a key part to using GitHub collaboratively!
+
+## Adding branches
+
+In this part of the video, we explore adding branches as a way to hopefully avoid so many merge conflicts. Doing this still involves communication, especially as we merge changes back to the main branch. Here are the steps we take:
+
+10. We could keep working in that way. Or, we could add branches. Show how to add a branch in R by clicking on the "branch" in the Git tab (next to settings). Show how it also changes on GitHub. 
+
+11. Make a change to the file in a branch (a small change - like some words) and commit and push. Show what shows up in GitHub (pull request - go through and merge and delete branch). Pull changes back to R Studio.
+
+12. Add a new branch. Make a harder change, commit, and push. You may run into changes that need resolving. 
+
+
+
+
