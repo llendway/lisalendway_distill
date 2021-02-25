@@ -5,21 +5,21 @@
       "title": "Posts",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-01-25T14:26:00-06:00"
+      "last_modified": "2021-02-25T14:01:46-06:00"
     },
     {
       "path": "index.html",
       "title": "About me",
       "author": [],
-      "contents": "\n\nProfessionally, I am a professor of statistics and data science at Macalester College and R Studio certified instructor of tidyverse. I have used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher. I have always enjoyed teaching people how to use R, but love it even more since the creation of R Markdown. If you are new to R and R Studio, you might find my tutorials from my introductory data science class helpful.\n\nA Facebook post from back when I worked in industry and got excited about knitting to Word\nI am also a mom and spouse. I enjoy tending to my jungle garden (that’s how I fondly refer to my backyard garden) in the summers, cycling outdoors or indoors when necessary, and working on remodeling and restoring our house.\n\n\n\nMy familyCross-cycling on a beautiful Minnesota October day!\n\nThe “Jungle Garden”, aka my 3rd child in the summerThe patio Chris and I built summer 2020.\n\n\nEducation\nPhD in Statistics, 2012\nUniversity of Minnesota, School of Statistics\nBA in Mathematics and Spanish, 2003Macalester College\nWork Experience\nVisiting Assistant Professor, 2012-2012 & 2017-present\nMacalester College\nStatistics and Advanced Analytics Consultant, 2016-2017\nSecurian Financial\nSenior Data Scientist, 2014-2016\nAllina Health / Health Catalyst\nSenior Biostatistician, 2013-2014\nHealthEast\nData Analyst, 2003-2006\nTarget Corporation\nContact\nThe easiest way to contact me, is to tweet me @lisalendway! If you are interested in having me lead a training, feel free to email me.\n\n\n\n",
-      "last_modified": "2021-01-25T14:26:01-06:00"
+      "contents": "\n\nProfessionally, I am a professor of statistics and data science at Macalester College and R Studio certified instructor of tidyverse. I have used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher. I have always enjoyed teaching people how to use R, but love it even more since the creation of R Markdown. If you are new to R and R Studio, you might find my tutorials from my introductory data science class helpful.\n\nA Facebook post from back when I worked in industry and got excited about knitting to Word\nI am also a mom and spouse. I enjoy tending to my jungle garden (that’s how I fondly refer to my backyard garden) in the summers, cycling outdoors or indoors when necessary, and working on remodeling and restoring our house.\n\n\n\nMy familyCross-cycling on a beautiful Minnesota October day!\n\nThe “Jungle Garden”, aka my 3rd child in the summerThe patio Chris and I built summer 2020.\n\n\nEducation\nPhD in Statistics, 2012\nUniversity of Minnesota, School of Statistics\nBA in Mathematics and Spanish, 2003Macalester College\nWork Experience\nAssistant Professor (NTT), 2021-present\nVisiting Assistant Professor, 2012-2013 & 2017-2020\nMacalester College\nStatistics and Advanced Analytics Consultant, 2016-2017\nSecurian Financial\nSenior Data Scientist, 2014-2016\nAllina Health / Health Catalyst\nSenior Biostatistician, 2013-2014\nHealthEast\nData Analyst, 2003-2006\nTarget Corporation\nContact\nThe easiest way to contact me, is to tweet me @lisalendway! If you are interested in having me lead a training, feel free to email me.\n\n\n\n",
+      "last_modified": "2021-02-25T14:01:47-06:00"
     },
     {
       "path": "other.html",
       "title": "When I'm not doing #RStats ...",
       "author": [],
       "contents": "\nWork-in-progress\nI do a lot of things that are completely unrelated to R, although R sometimes sneaks in where it doesn’t belong. Eventually I will write about those things here, mostly gardening and home renovations :)\n\n\n\n",
-      "last_modified": "2021-01-25T14:26:02-06:00"
+      "last_modified": "2021-02-25T14:01:48-06:00"
     }
   ],
   "collections": ["posts/posts.json"]

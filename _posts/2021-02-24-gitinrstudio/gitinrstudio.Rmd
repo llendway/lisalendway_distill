@@ -6,6 +6,7 @@ author:
   - name: Lisa Lendway
   - name: Heather Lendway
 date: 02-24-2021
+preview: two_nerdy_sisters.jpeg
 twitter:
   site: "@lisalendway"
   creator: "@lisalendway"
@@ -44,6 +45,10 @@ In the first part of the video, we go through the following steps:
 
 3. I save an .Rmd file to the folder/project/repository that was just created, commit the .Rmd and .Rproj file, and push changes to GitHub.
 
+Watch through minute 3:27:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/megZYkCLMA4?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Add a collaborator and they clone the repo
 
 In the next section of the video, I add a collaborator, Heather! (We really are two nerdy sisters `r emo::ji("nerd_face")` `r emo::ji("nerd_face")`.)  After this, we are ready to work on our project together.
@@ -51,6 +56,10 @@ In the next section of the video, I add a collaborator, Heather! (We really are 
 4. I add a collaborator, Heather.
 
 5. Heather clones the repo from GitHub to her computer in RStudio. 
+
+Watch through minute 7:41:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/megZYkCLMA4?start=208" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Do some committing, pushing, and pulling
 
@@ -62,9 +71,17 @@ Now we show how to work together on the project. Good reminder to remember your 
 
 8. I pull in the change from GitHub. 
 
+Watch through minute 14:00:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/megZYkCLMA4?start=461" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Communication breaks down
 
 9. In the next portion of the video, we create a merge conflict and show how to resolve it. Phew, that wasn't so bad. Remember, communication is a key part to using GitHub collaboratively!
+
+Watch through minute 22:06:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/megZYkCLMA4?start=840" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Adding branches
 
@@ -76,12 +93,19 @@ In this part of the video, we explore adding branches as a way to hopefully avoi
 
 12. In GitHub I merge the changes via a pull request, delete the branch, and Heather and I both pull in the changes from GitHub. 
 
+Watch through minute 30:30: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/megZYkCLMA4?start=1326" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Add an issue and solve it
 
 At this point in the video, we say good-bye to Heather `r emo::ji("frowning_face")`, and I'm left to fend for myself. I fumble a bit. Also, I really don't have a clue if I did this in a "right" way. Someone should tell me if I didn't. 
 
 13. I show creating an issue and using branching/PR (PR is short for pull request) to solve issue and close issue.
 
+Watch through minute 36:28
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/megZYkCLMA4?start=1830" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## I use the terminal `r emo::ji("face_screaming_in_fear")`, and come out alive!
 
@@ -94,6 +118,10 @@ In this part of the video, I illustrate how to go back to previous versions of f
 16. I made another mistake! But now I've pushed it! How do I fix this? We can go back to a previous commit by using `git revert <SHA>` in the terminal, where `<SHA>` is the alpha numeric string that defines that commit. This actually adds another commit (see [this](https://ohi-science.org/news/github-going-back-in-time) resource), which I forgot about while recording the video. You may end up with a merge conflict, which you will need to resolve (I'd recommend doing that inside of R Studio) and if you end up in a place with a bunch of `####` symbols in the terminal, type `:q` to get out.
 
 17. When in doubt, do as Jenny Bryan advises and ["Burn it all down"](https://happygitwithr.com/burn.html). We're all human. We all make mistakes. It'll be ok.
+
+Watch to the end!:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/megZYkCLMA4?start=2188" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Bonus information
 
