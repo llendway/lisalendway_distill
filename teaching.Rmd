@@ -1,0 +1,18 @@
+---
+title: "Teaching"
+site: distill::distill_website
+---
+
+I spend a lot of time teaching and preparing for teaching. This past year (2020-21), I tried to put a lot of my materials online. I would love to hear if you use my resources and found them helpful. Or, if there's a mistake you find or a suggestion you have, I'd love to hear about those, too.
+
+## Introduction to Data Science   
+
+This course focuses on using data to tell a story. Students use R to wrangle and graph data, using packages including {tidyverse}, {ggmap}, {leaflet}, {gganimate}, {shiny}, and more. The [website](https://ds112-lendway.netlify.app/) includes "tutorials" for each unit, and each tutorial includes introductory slides or text/code right in the document, screencasts where I walk through examples of the new code, and example problems with solutions.
+
+## Advanced Data Science in R
+
+This course requires Introduction to Data Science and Statistical Machine Learning as prerequisites. It builds on BOTH courses. The [website](https://advanced-ds-in-r.netlify.app/) mostly contains materials about modeling, since that is the part of the course I prepared. In small groups, students taught the class about topics (involving R) used in data analysis. In spring of 2021, some of the topics included {tmap}, mapping using `geom_sf()`, regular expressions, and {tidytext}. Students also made websites using R, created shiny apps, and did a culminating project. 
+
+
+
+

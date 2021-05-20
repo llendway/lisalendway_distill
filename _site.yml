@@ -14,6 +14,8 @@ navbar:
       href: blog.html
     - text: "Non-R Stuff"
       href: other.html
+    - text: "Teaching"
+      href: teaching.html
     - icon: fa fa-github
       href: https://github.com/llendway
     - icon: fa fa-twitter
