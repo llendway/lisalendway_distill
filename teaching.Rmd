@@ -13,6 +13,10 @@ This course focuses on using data to tell a story. Students use R to wrangle and
 
 This course requires Introduction to Data Science and Statistical Machine Learning as prerequisites. It builds on BOTH courses. The [website](https://advanced-ds-in-r.netlify.app/) mostly contains materials about modeling, since that is the part of the course I prepared. In small groups, students taught the class about topics (involving R) used in data analysis. In spring of 2021, some of the topics included {tmap}, mapping using `geom_sf()`, regular expressions, and {tidytext}. Students also made websites using R, created shiny apps, and did a culminating project. 
 
+## Tidy Tuesday in Thirty   
+
+Ok, this isn't really teaching material, but maybe it will help you learn `tidyverse` coding. For eight weeks in 2020-2021 (and hopefully starting again, soon!), I did screencasts working with the [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) data of the week. I only gave myself 30 minutes ... and maybe a little time after for some final touches. Links to the code and videos are on my [Github page](https://github.com/llendway/tidy_tuesday_in_thirty).
+
 
 
 

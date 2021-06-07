@@ -5,28 +5,28 @@
       "title": "Posts",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-05-20T12:05:15-05:00"
+      "last_modified": "2021-06-07T13:10:32-05:00"
     },
     {
       "path": "index.html",
       "title": "About me",
       "author": [],
       "contents": "\n\nProfessionally, I am a professor of statistics and data science at Macalester College and R Studio certified instructor of tidyverse. I have used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher. I have always enjoyed teaching people how to use R, but love it even more since the creation of R Markdown. If you are new to R and R Studio, you might find my tutorials from my introductory data science class helpful.\n\nA Facebook post from back when I worked in industry and got excited about knitting to Word\nI am also a mom and spouse. I enjoy tending to my jungle garden (that’s how I fondly refer to my backyard garden) in the summers, cycling outdoors or indoors when necessary, and working on remodeling and restoring our house.\n\n\n\nMy familyCross-cycling on a beautiful Minnesota October day!\n\nThe “Jungle Garden”, aka my 3rd child in the summerThe patio Chris and I built summer 2020.\n\n\nEducation\nPhD in Statistics, 2012\nUniversity of Minnesota, School of Statistics\nBA in Mathematics and Spanish, 2003Macalester College\nWork Experience\nAssistant Professor (NTT), 2021-present\nVisiting Assistant Professor, 2012-2013 & 2017-2020\nMacalester College\nStatistics and Advanced Analytics Consultant, 2016-2017\nSecurian Financial\nSenior Data Scientist, 2014-2016\nAllina Health / Health Catalyst\nSenior Biostatistician, 2013-2014\nHealthEast\nData Analyst, 2003-2006\nTarget Corporation\nContact\nThe easiest way to contact me, is to tweet me @lisalendway! If you are interested in having me lead a training, feel free to email me.\n\n\n\n",
-      "last_modified": "2021-05-20T12:05:16-05:00"
+      "last_modified": "2021-06-07T13:10:33-05:00"
     },
     {
       "path": "other.html",
       "title": "When I'm not doing #RStats ...",
       "author": [],
       "contents": "\nWork-in-progress\nI do a lot of things that are completely unrelated to R, although R sometimes sneaks in where it doesn’t belong. Eventually I will write about those things here, mostly gardening and home renovations :)\n\n\n\n",
-      "last_modified": "2021-05-20T12:05:16-05:00"
+      "last_modified": "2021-06-07T13:10:34-05:00"
     },
     {
       "path": "teaching.html",
       "title": "Teaching",
       "author": [],
-      "contents": "\nI spend a lot of time teaching and preparing for teaching. This past year (2020-21), I tried to put a lot of my materials online. I would love to hear if you use my resources and found them helpful. Or, if there’s a mistake you find or a suggestion you have, I’d love to hear about those, too.\nIntroduction to Data Science\nThis course focuses on using data to tell a story. Students use R to wrangle and graph data, using packages including {tidyverse}, {ggmap}, {leaflet}, {gganimate}, {shiny}, and more. The website includes “tutorials” for each unit, and each tutorial includes introductory slides or text/code right in the document, screencasts where I walk through examples of the new code, and example problems with solutions.\nAdvanced Data Science in R\nThis course requires Introduction to Data Science and Statistical Machine Learning as prerequisites. It builds on BOTH courses. The website mostly contains materials about modeling, since that is the part of the course I prepared. In small groups, students taught the class about topics (involving R) used in data analysis. In spring of 2021, some of the topics included {tmap}, mapping using geom_sf(), regular expressions, and {tidytext}. Students also made websites using R, created shiny apps, and did a culminating project.\n\n\n\n",
-      "last_modified": "2021-05-20T12:05:17-05:00"
+      "contents": "\nI spend a lot of time teaching and preparing for teaching. This past year (2020-21), I tried to put a lot of my materials online. I would love to hear if you use my resources and found them helpful. Or, if there’s a mistake you find or a suggestion you have, I’d love to hear about those, too.\nIntroduction to Data Science\nThis course focuses on using data to tell a story. Students use R to wrangle and graph data, using packages including {tidyverse}, {ggmap}, {leaflet}, {gganimate}, {shiny}, and more. The website includes “tutorials” for each unit, and each tutorial includes introductory slides or text/code right in the document, screencasts where I walk through examples of the new code, and example problems with solutions.\nAdvanced Data Science in R\nThis course requires Introduction to Data Science and Statistical Machine Learning as prerequisites. It builds on BOTH courses. The website mostly contains materials about modeling, since that is the part of the course I prepared. In small groups, students taught the class about topics (involving R) used in data analysis. In spring of 2021, some of the topics included {tmap}, mapping using geom_sf(), regular expressions, and {tidytext}. Students also made websites using R, created shiny apps, and did a culminating project.\nTidy Tuesday in Thirty\nOk, this isn’t really teaching material, but maybe it will help you learn tidyverse coding. For eight weeks in 2020-2021 (and hopefully starting again, soon!), I did screencasts working with the Tidy Tuesday data of the week. I only gave myself 30 minutes … and maybe a little time after for some final touches. Links to the code and videos are on my Github page.\n\n\n\n",
+      "last_modified": "2021-06-07T13:10:34-05:00"
     }
   ],
   "collections": ["posts/posts.json"]
