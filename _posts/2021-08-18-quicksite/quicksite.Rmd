@@ -1,0 +1,76 @@
+---
+title: "Building an R Markdown website"
+description: |
+  How to get all your knitted .Rmd files onto a website really fast!
+author:
+  - name: Lisa Lendway
+date: 08-18-2021
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_float: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Intro
+
+This is going to be a pretty short blog that goes through creating a website using R Markdown. I do it in a slightly different way than I first learned it so that I can 1) put all my .Rmd files in a folder and 2) those .Rmd files are NOT re-rendered each time I build the site (if I want to update a file, I need to re-knit it by hand). If you'd rather watch this in video form, here's the [just over 15 minute video](https://youtu.be/DfNxk_cKL04) of me creating the website, including starting with a GitHub repo and deploying the site via netlify. The website I make IS NOT fancy! But, I could make it quickly. If you're looking for better, more customizeable website solutions, I highly recommend watching Alison Hill & Desirée De Leon's video titled [*How to Get Your Material Online with R Markdown*](https://youtu.be/QcE4RBH2auQ). It is such an excellent video.
+
+
+## Panic Mode
+
+I am a professor of statistics and data science at Macalester College. My classes start in just over two weeks, and it is major course prep crunch time. 
+
+<center>
+![Image of a muppet running, open-mouthed, screamming ahhhhhh from https://giphy.com/gifs/5qoRdabXeT4GY. Or possible, it is me prepping for fall semester.](https://media.giphy.com/media/5qoRdabXeT4GY/giphy.gif){width="50%"}
+</center>
+
+One of the classes I'm teaching is Intro Stat, which I last taught in Spring of 2020. At that time, I didn't have a website for the course and instead put all the .Rmd and .html files I used on moodle. Now, I'd like to create a website from those files ... fast!
+
+## Let's do it!
+
+I thought about creating a distill website, which I've done in the past. I love the simplicity with the ability to do a bit of customizing. But, in the end, I decided I wanted something even simpler. Ideally, I wanted to be able to copy and paste or move all my files to a folder and have them magically turn into a website. Turns out, I could do almost that. Below, I go through the steps I took to build my [website](https://stat155.netlify.app/) (which definitely still needs work, but that can come little by little). Again, if you want to follow along in the video, it's [here](https://youtu.be/DfNxk_cKL04).
+
+1. Create a GitHub repo. You could skip this but it'll make deploying much easier. Clone the repo to your computer by creating a new project via Git version control in RStudio.  
+
+2. Add a new folder to the main project directory named `_site`, exactly like that.  
+
+3. Add a new folder to the main project directory named `content`. You can actually name it something else, but make sure it doesn't have underscores in the name (not sure why, but when it does, that folder disappears when you build the site - I learned that the hard way).  
+
+4. Create a new .Rmd file called exactly `index.Rmd` and save it to the main project directory. This will be the main page of your website.  
+
+5. Create a new text file called exactly `_site.yml` and save it to the main project directory. This controls the layout of your website. You can see an example of the one I used [here](https://github.com/llendway/rmarkdown_website_template). If you wanted to, you could actually download or fork that repository as a starting place for the website you build. The yaml file will reference a file called `content.html`, I'll talk about where that comes from next.
+
+6. Create a file called `content.Rmd` and save it to the main project directory. This will be what shows up on the content tab of your website. Again, you could change the name of the file and the file name does not have to match the name of the folder you created, like it does in my example. You need to make sure that the name of this file matches what is in the `_site.yml` file, that is `content.html` that is referenced in the `_site.yml` file is created from the `content.Rmd` file we are creating here. So, if you change the name, change it in the `_site.yml` file too.  We're going to modify this file some more in a moment.
+
+7. Copy or move the .Rmd files you want to use into the `content` folder you created (if you have a lot of files, I recommend moving a couple at a time). If you have them already, you could also move the knitted .html files there. I wanted to re-knit all my files just to make sure I had libraries installed that I'd need. I just want to emphasize that the way I'm doing this, you NEED to knit the .Rmd files on your own. Building the site will not knit the files for you. This also makes building the site quite fast. 
+
+8. Go back to the `content.Rmd` file and link to the .html files in your content folder. I used Markdown syntax to do it, like below. 
+
+```
+* [File 1](content/file1.html)  
+* [File 2](content/file2.html)  
+* [File 3](content/file3.html)
+```
+
+9. Make sure everything is saved. Close your project and reopen it. Then, the build tab in the top right (for default layouts) will show up. Click Build Website. Hopefully it builds without a problem. 
+
+10. Commit and push everything you did out to GitHub (another good reason to only add a few files at a time). 
+
+11. I use [netlify](https://www.netlify.com/) to deploy my websites. If you want to do that, go there and create an account. Then, you can choose to create a new site from Git. Choose continuous deployment from GitHub (this will update the site anytime you push). Then, find your GitHub repo and link to the `_site` folder in the Publish directory area. Click deploy site. You can change the name of your website in Deploy settings --> Build & deploy --> Edit site name.
+
+## Conclusion
+
+I liked this method because I could literally just use the .Rmd files I had already created. I didn't need to make any changes to the YAML headings in any of the files. I LOVE the code download button in the top right corner of the .html file, especially for students who are just starting with R. Other available tools (like distill blog posts) have required me to find some other way to made the underlying code available. I also like that I have to re-knit the files in order for them to be updated because I'm usually just updating one file at a time.  
+
+There are definitely downsides to this method, too. For example, you'll notice the theme doesn't carry through to the files in my `content` folder. I'm ok with that for this website but wouldn't be for others.
+
+
+
+
+
