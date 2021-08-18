@@ -26,9 +26,10 @@ This is going to be a pretty short blog that goes through creating a website usi
 
 I am a professor of statistics and data science at Macalester College. My classes start in just over two weeks, and it is major course prep crunch time. 
 
-<center>
-![Image of a muppet running, open-mouthed, screamming ahhhhhh from https://giphy.com/gifs/5qoRdabXeT4GY. Or possible, it is me prepping for fall semester.](https://media.giphy.com/media/5qoRdabXeT4GY/giphy.gif){width="50%"}
-</center>
+
+```{r, fig.align='center', out.width="50%", fig.cap="Image of a muppet running, open-mouthed, screamming ahhhhhh from https://giphy.com/gifs/5qoRdabXeT4GY. Or possibly, it is me prepping for fall semester.", fig.alt="Image of a muppet running, open-mouthed, screamming ahhhhhh from https://giphy.com/gifs/5qoRdabXeT4GY. Or possibly, it is me prepping for fall semester."}
+knitr::include_graphics("https://media.giphy.com/media/5qoRdabXeT4GY/giphy.gif")
+```
 
 One of the classes I'm teaching is Intro Stat, which I last taught in Spring of 2020. At that time, I didn't have a website for the course and instead put all the .Rmd and .html files I used on moodle. Now, I'd like to create a website from those files ... fast!
 
